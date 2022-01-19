@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: white;
+}
+.navbar h1 {
+  color: #f1356d;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  font-size: 30px;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 1080px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+td, tr {
+  padding: 20px;
+  margin: auto;
+}
+
+td {
+  margin: auto;
+}
+input {
+  height: 30px;
+  width: 250px;
+}
+
+select {
+  height: 40px;
+  width: 259px;
+}
+
+
+table {
+  align-items: center;
+  padding:20px;
+  margin-top:10px;
+  margin-left: 200px;
+  width: auto;
+  max-width: 600px;
+}
+
+.inTime {
+  color:white;
+  background-color:#f1356d;
+  border-radius:8px;
+  padding: 20px;
+  margin-left:50px;
+  margin-top:30px;
+  width:150px;
+  font-size:25px;
+  font-weight:bold;
+}
+
+.outTime {
+  color:white;
+  background-color:#f1356d;
+  border-radius:8px;
+  padding: 20px;
+  margin-left:200px;
+  margin-top:30px;
+  width:150px;
+  font-size:25px;
+  font-weight:bold;
+}
